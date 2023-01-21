@@ -9,7 +9,7 @@ int* foo(int* ptr)
 
 int main()
 {
-    int y;
+    int y = {0};
     printf("%d", foo(&y));
 
 }
